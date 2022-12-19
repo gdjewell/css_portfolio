@@ -22,7 +22,7 @@
       <section class="hero">
         <div class="hero-container" id="aboutme">
           <article class="aboutme">
-            <h1 class="bio">Hi, I'm Greg.</h1>
+            <h1 class="bio">Hi, I'm <span class="myname">Greg.</span></h1>
             <h2>  Driven, meticulous, supportive</h2>
           </article>  
         </section>
@@ -30,10 +30,10 @@
        <section class="myinfo-row">
           <div class="spacer"></div>
           <div class="myinfo-column-1">
-            <h2>I'm an aspiring web developer with a long history in technical support. While I have a few projects under my belt, I'm anxious to learn more and create awesome things to better myself, and my career.</h2>
+            <h2 class="about-me-info">I'm an aspiring web developer with a long history in technical support. While I have a few projects under my belt, I'm anxious to learn more and create awesome things to better myself, and my career.</h2>
           </div>  
           <div class="myinfo-column-2">
-          <figure><img class="my-image" src="assets/images/GJ.png" alt="image of myself"></figure>
+          <figure><img class="my-image" src="assets/images/myimage.jpeg" alt="image of myself"></figure>
           </div>
           <div class="spacer-2"></div>
         </div>
@@ -41,6 +41,7 @@
       </section>
 
       <section class="portfolio-container" id="portfolio">
+        <h2 class="portfolio-headline">My Portfolio</h2>
         <div class="portfolio-row">
           <article class="column html-column">
             <div class="html-background">
@@ -74,12 +75,17 @@
         </div>
       </section>
 
-      <section class="contact-me" id="contact">
+      <section class="contactme-container" id="contact">
+       <div class="contactme-row">
+        <h3>Contact me anytime for feedback or questions.</h3>
+        <div class="contactme-column">
         <form action="submit"></form>
         <input type="email" name="email" placeholder="Enter your email address">
         <input type="text" name="fname" placeholder="Enter your name">
-        <textarea name="cmment" id="comment" cols="20" rows="10"></textarea>
-        <input type="submit" name="submit-button" class="submit" value="Contact me">
+        <textarea name="comment" id="comment" placeholder="Leave your feedback" cols="30" rows="10"></textarea>
+        <input type="submit" name="submit-button" id="submit" value="Contact me">
+       </div>
+      </div>
       </section>
      </main>
      <footer>
