@@ -108,7 +108,7 @@ h2 {
   flex-direction:row;
   align-items:center;
   justify-content:space-evenly;
-  background-image:linear-gradient(rgb(108, 4, 4), rgba(123, 8, 134, 0.363));
+  background-image:linear-gradient(purple, red);
 }
 
 .myinfo.column-1 {
