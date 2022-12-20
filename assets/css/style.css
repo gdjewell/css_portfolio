@@ -16,20 +16,13 @@ header {
   flex-direction:row;
   justify-content:space-between;
   margin: 0 auto;
-  max-height:50px;
   background-color:white;
-
 }
 
 .logo {
   width:40px;
   margin-left:10%;
   border-radius:50%;
-}
-
-.menu {
-  padding-right:40px;
-
 }
 
 .menu li {
@@ -259,25 +252,39 @@ footer {
 
 @media screen and (max-width: 768px) {
 
- 
   .logo {
     display:none;
   }
 
-  header ul li {
-   width:100%;
-   text-align:center;
+  header {
+    justify-content:center;
+    flex-direction:column;
+  }
 
+  
+  .menu li  {
+   align-items:center;
+   display:block;
+   padding: 15px; 
   }
 
   .myinfo-row {
     flex-direction:column;
+    text-align:center;
   }
 
   .column {
+    width:90%;
+  }
+
+  .html-column {
     width:100%;
   }
+
+
 }
+
+
   
 
 
