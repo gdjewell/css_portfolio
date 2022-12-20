@@ -161,9 +161,9 @@ text-align:center;
 }
 
 .column:hover {
-  background-color:black;
+  background-color:gray;
   opacity:.7;
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .html-column {
@@ -242,6 +242,8 @@ h3 {
   background-color: aquamarine;
 }
 
+/* Footer Section */
+
 footer {
   height:100%;
   text-align:center;
@@ -250,7 +252,11 @@ footer {
   padding:15px;
 }
 
+/* Media Queries */
+
 @media screen and (max-width: 768px) {
+
+  /* Media Queries for Header Section */
 
   .logo {
     display:none;
@@ -268,10 +274,14 @@ footer {
    padding: 15px; 
   }
 
+  /* Media Queries for my info section */
+
   .myinfo-row {
     flex-direction:column;
     text-align:center;
   }
+
+  /* Media Querys for Portfolio Section */
 
   .column {
     width:90%;
