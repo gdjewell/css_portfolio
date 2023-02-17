@@ -1,127 +1,129 @@
 * {
   box-sizing: border-box;
 }
+
 body {
-font-family: 'Open Sans', sans-serif;
-background-image: url("../images/hero-bg.png");
-margin: 0;
-padding:0;
+  font-family: 'Open Sans', sans-serif;
+  background-image: url("../images/hero-bg.png");
+  margin: 0;
+  padding: 0;
 }
 
 h4 {
-  font-weight:bold;
+  font-weight: bold;
 }
 
 /* Header */
 
 header {
-  display:flex;
-  align-items:center;
-  flex-direction:row;
-  justify-content:space-between;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
   margin: 0 auto;
-  background-color:white;
+  background-color: white;
 }
 
 .logo {
-  width:40px;
-  margin-left:10%;
-  border-radius:50%;
+  width: 40px;
+  margin-left: 10%;
+  border-radius: 50%;
 }
 
 .menu li {
-  list-style-type:none;
-  display:inline-block;
+  list-style-type: none;
+  display: inline-block;
 }
 
 .menu li a {
-  text-decoration:none;
-  text-transform:uppercase;
-  color:black;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
   padding: 0 25px;
-  position:relative;
-  opacity:.50;
+  position: relative;
+  opacity: .50;
 }
 
 .menu li a:hover {
-  opacity:5;
+  opacity: 5;
 }
 
 .menu li a::before {
-  transition:400ms;
-  height:2px;
+  transition: 400ms;
+  height: 2px;
   content: "";
-  position:absolute;
-  width:0%;
-  bottom:1px;
-  background-color:#b37659
+  position: absolute;
+  width: 0%;
+  bottom: 1px;
+  background-color: #b37659
 }
 
 .menu li a:hover::before {
-width:60%;
+  width: 60%;
 }
 
 /* Hero section */
 
 .aboutme {
-  display:flex;
-  flex-flow:column wrap;
-  text-align:center;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
 }
 
 .hero {
-  width:100%;
+  width: 100%;
 }
+
 .hero-container {
-  margin:0 auto;
+  margin: 0 auto;
   padding: 15% 20%;
 }
 
 h1 {
-  font-size:2.3em;
-  color:white;
-  text-align:center;
+  font-size: 2.3em;
+  color: white;
+  text-align: center;
 }
 
 .myname {
-  color:aquamarine;
+  color: aquamarine;
 }
 
 h2 {
-  font-size:1.8em;
-  color:white;
+  font-size: 1.8em;
+  color: white;
 
 }
 
 /* My image Section */
 
 .myinfo-row {
-  display:flex;
-  flex-direction:row;
-  align-items:center;
-  justify-content:space-evenly;
-  background-color:#7fffd4;
-  padding:30px;
-  width:100%;
-  flex-basis:1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #7fffd4;
+  padding: 30px;
+  width: 100%;
+  flex-basis: 1;
 }
 
-  .myinfo-column-1 h2 {
-  color:black;
-  }
+.myinfo-column-1 h2 {
+  color: black;
+}
 
-  .myinfo-column-2 img {
-    height:400px;
-    border-radius:50%;
-    border:3px solid black;
-    
-  }
-  
+.myinfo-column-2 img {
+  height: 400px;
+  border-radius: 50%;
+  border: 3px solid black;
+
+}
+
 
 /* Portfolio SEction */
 
 .portfolio-headline {
-text-align:center;
+  text-align: center;
 }
 
 .portfolio-container {
@@ -130,18 +132,19 @@ text-align:center;
 }
 
 .portfolio-row {
-  display:flex;
-  flex-flow:row wrap;
-  justify-content:space-evenly;
-  padding-bottom:30px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
 }
 
 
 .html-background {
-  background-image: url(../images/html\-screen.jpg);
-  background-size:cover;
+  background-image: url(../images/asteroid.jpg);
+  background-size: cover;
 
 }
+
 .css-background {
   background-image: url(../images/CSS\-screen.jpg);
 }
@@ -159,86 +162,93 @@ text-align:center;
 }
 
 .column {
-  width:50%;
+  width: 50%;
   padding: 25px;
 }
 
 .column:hover {
-  background-color:gray;
-  opacity:.7;
+  background-color: gray;
+  opacity: .7;
   transform: scale(1.02);
 }
 
 .html-column {
-  width:100%;
+  width: 100%;
 }
 
-.html-background, .css-background, .chuckle-background, .simon-background, .dicee-background {
-  padding:3% 1%;
+.html-background,
+.css-background,
+.chuckle-background,
+.simon-background,
+.dicee-background {
+  padding: 3% 1%;
   border: 2px solid white;
 }
 
 .portfolio-text {
-text-align:center;
-padding:20px 0;
-cursor:pointer;
-color:yellow;
+  text-align: center;
+  padding: 20px 0;
+  cursor: pointer;
+  color: yellow;
 }
 
 a {
-  text-decoration:none;
-  color:yellow;
+  text-decoration: none;
+  color: yellow;
 }
+
 /* Form Section */
 
 h3 {
-  font-size:1.4em;
-  color:black;
+  font-size: 1.4em;
+  color: black;
 }
 
 .contactme-container {
-  padding:2%;
-  background-color:#DFFFF9
+  padding: 2%;
+  background-color: #DFFFF9
 }
 
 .contactme-row {
-  display:flex;
-  flex-direction:column;
-  align-items:center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contactme-column {
   border: 2px solid gray;
   padding: 15px;
-  border-radius:20px;
+  border-radius: 20px;
 }
 
 .contactme-column input {
-  height:50px;
+  height: 50px;
   margin-bottom: 2%;
-  
+
 }
 
-.contactme-column input[placeholder], .contactme-column textarea[placeholder] {
-  text-align:center;
+.contactme-column input[placeholder],
+.contactme-column textarea[placeholder] {
+  text-align: center;
 }
 
-.contactme-column textarea, .contactme-column input {
-  width:100%;
-  border-radius:15px;
+.contactme-column textarea,
+.contactme-column input {
+  width: 100%;
+  border-radius: 15px;
 }
 
 #submit {
-  display:block;
+  display: block;
   margin: 15px auto;
-  background-color:white;
-  font-weight:bold;
+  background-color: white;
+  font-weight: bold;
   width: 225px;
-  font-weight:bold;
-  font-size:1.3em;
-  color:black;
-  border-radius:20px;
-  cursor:pointer;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: black;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 #submit:hover {
@@ -248,11 +258,11 @@ h3 {
 /* Footer Section */
 
 footer {
-  height:100%;
-  text-align:center;
-  color:black;
+  height: 100%;
+  text-align: center;
+  color: black;
   background-color: #DFFFF9;
-  padding:15px;
+  padding: 15px;
 }
 
 /* Media Queries */
@@ -262,46 +272,41 @@ footer {
   /* Media Queries for Header Section */
 
   .logo {
-    display:none;
+    display: none;
   }
 
   header {
-    justify-content:center;
-    flex-direction:column;
+    justify-content: center;
+    flex-direction: column;
   }
 
-  
-  .menu li  {
-   align-items:center;
-   display:block;
-   padding: 15px; 
+
+  .menu li {
+    align-items: center;
+    display: block;
+    padding: 15px;
   }
 
   /* Media Queries for my info section */
 
   .myinfo-row {
-    flex-direction:column;
-    text-align:center;
+    flex-direction: column;
+    text-align: center;
   }
 
   .myinfo-column-2 {
-    order:-1;
+    order: -1;
   }
 
   /* Media Querys for Portfolio Section */
 
   .column {
-    width:90%;
+    width: 90%;
   }
 
   .html-column {
-    width:100%;
+    width: 100%;
   }
 
 
 }
-
-
-  
-
-
